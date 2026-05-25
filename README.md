@@ -267,17 +267,9 @@ Developed for the **TTTC3413 Robot Applications** course at
 Faculty of Information Science and Technology (FTSM),  
 Universiti Kebangsaan Malaysia (UKM).
 
-## Contributors
+## Contributor
 
-- Hanis Iyazi Binti Ramli (A201578)
-- Muhammad Najmi Bin Mohd Ali Hanafiah (A200844)
 - Farah Dania Binti Imam Nawawi (A205566)
-
----
-
-# Supervisor
-
-Dr. Anahita Ghazvani
 
 ---
 
