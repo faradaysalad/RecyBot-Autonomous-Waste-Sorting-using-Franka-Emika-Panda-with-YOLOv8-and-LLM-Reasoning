@@ -1,4 +1,4 @@
-# RecyBot: Autonomous Waste Sorting with YOLOv8, MoveIt 2, and LLM Reasoning
+# RecyBot: Autonomous Waste Sorting using Franka Emika Panda with YOLOv8, MoveIt 2, and LLM Reasoning
 
 ## Overview
 
