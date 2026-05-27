@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="small_box_small">
+    <pose>0 0 0.045 0 0 0</pose> <!-- lowered height accordingly -->
+    <static>false</static>
+    <link name="link">
+      <inertial>
+        <mass>1.0</mass> <!-- reduced mass -->
+        <inertia>
+          <ixx>0.000215</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000215</iyy>
+          <iyz>0</iyz>
+          <izz>0.000215</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.20 0.115 0.09</size> <!-- half of original -->
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode>
+              <max_vel>0.1</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://small_box/meshes/small_box.dae</uri>
+            <scale>0.5 0.5 0.5</scale> <!-- scale mesh visually -->
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
+
